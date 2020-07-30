@@ -9,6 +9,9 @@ To add firebase to Flutter project : https://firebase.google.com/docs/flutter/se
 Here are some screenshot of the application
 
 ![Authentication](https://ibb.co/QCkK4NC)
+<p align="center">
+  <img src="https://ibb.co/QCkK4NC" width="350" title="Authentication">
+</p>
 
 ![Home Page](https://ibb.co/1f9PcVZ)
 
