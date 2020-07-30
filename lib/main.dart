@@ -1,16 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
-import 'package:test_1/pages/history.dart';
+//import 'package:test_1/pages/history.dart';
 //import 'package:test_1/pages/root_page.dart';
 //import 'package:test_1/service/authentication.dart';
 import 'package:test_1/test2/authentication.dart';
-import 'package:test_1/pages/scan.dart';
+//import 'package:test_1/pages/scan.dart';
 import 'package:test_1/test2/d_page.dart';
 
-//import 'package:test_1/test2/d_page.dart';
-import 'service/payment.dart';
-import 'test2/login_signup_page.dart';
-import 'package:test_1/pages/root_page.dart';
 
 
 void main() => runApp(MyApp());
