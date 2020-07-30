@@ -2,26 +2,9 @@
 Smart Shopping App.
 Designed to help the customers shopping in the supermarkets to skip the waiting time in the billing queue to get the bill and make payment.
 
-To get started with Flutter : https://flutter.dev/docs/get-started/codelab
+To get started with Flutter : ![link](https://flutter.dev/docs/get-started/codelab)
 
-To add firebase to Flutter project : https://firebase.google.com/docs/flutter/setup
+To add firebase to Flutter project : ![link](https://firebase.google.com/docs/flutter/setup)
 
-Here are some screenshot of the application
-
-![Authentication](https://ibb.co/QCkK4NC)
-<p align="center">
-  <img src="https://ibb.co/QCkK4NC" width="350" title="Authentication">
-</p>
-
-![Home Page](https://ibb.co/1f9PcVZ)
-
-![Home Page](https://ibb.co/NV9F5fL)
-
-![Barcode Scanner](https://ibb.co/PFXm0pS)
-
-![Shop page](https://ibb.co/XLC8NMk)
-
-![Payment using razorpay](https://ibb.co/7tchKt2)
-
-![Invoice](https://ibb.co/7J7jCrR) 
-
+This is developed as a project to demonstrate a new concept of self checkout.
+Project report and demonstration of the application : ![link](https://drive.google.com/drive/folders/1UuiZZIvQb1VVKGL_GCkbT3hdj7loIfEB?usp=sharing)
