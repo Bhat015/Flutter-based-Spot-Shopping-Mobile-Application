@@ -5,11 +5,11 @@ import 'package:barcode_scan/barcode_scan.dart';
 import 'package:flutter/services.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:test_1/pages/invoice.dart';
-import 'package:test_1/service/payment.dart';
+//import 'package:test_1/service/payment.dart';
 
 import 'package:razorpay_flutter/razorpay_flutter.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'dart:io';
+
 
 class ScanScreen extends StatefulWidget {
   @override
@@ -37,7 +37,7 @@ class _ScanScreenState extends State<ScanScreen> {
 
   List<ListTileModel> _items = [];
 
-  get System => null;
+
 
   void _add() {
 
@@ -254,7 +254,7 @@ class _ScanScreenState extends State<ScanScreen> {
   }
 
   Future scan() async{
-    double startTime = System.nanoTime();
+    
     try{
       String barcode = await BarcodeScanner.scan();
       int bil,bil2,bil3;
@@ -310,11 +310,9 @@ class _ScanScreenState extends State<ScanScreen> {
 
         });
 
-        double startTime = System.nanoTime();
+        
         _add();
-        double endTime = System.nanoTime();
-        print(endTime-startTime);
-
+       
 
       });
 
@@ -348,7 +346,7 @@ class _ScanScreenState extends State<ScanScreen> {
   void launchPayment() async {
    // double startTime = System.nanoTime();
     var options = {
-      'key': 'rzp_test_dcpEg18EO9ge1q',
+      'key': '', // ADD YOUR RAZORPAY KEY
       'amount': bill * 100,
       'name': 'ShopSpot',
       'description': 'payment from ShopSpot app',

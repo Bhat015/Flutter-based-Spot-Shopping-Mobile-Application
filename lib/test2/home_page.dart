@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:test_1/pages/history.dart';
 import 'package:test_1/pages/scan.dart';
-import 'package:test_1/service/payment.dart';
+//import 'package:test_1/service/payment.dart';
 import 'package:test_1/test2/authentication.dart';
 import 'dart:async';
 import 'package:firebase_database/firebase_database.dart';
